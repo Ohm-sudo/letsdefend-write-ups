@@ -11,9 +11,16 @@ Each folder contains:
 - Notes for each course.
 - Answers to lession questions.
 
-This is mainly for me to document my learning progress on LetsDefend. Feel free to browse by room name and use as reference for your own learning journey.
+This is mainly for me to document my learning progress on LetsDefend. Feel free to browse by course name and use as reference for your own learning journey.
 
-| Status       | Room Name           | Category        |
+| Status       | Course Name           | Category        |
 |:------------:|---------------------|-----------------|
-| 🔄 | SOC Fundamentals | Beginner |
-| ☑️ |  |  |
+| ☑️ | <a href="https://github.com/Ohm-sudo/letsdefend-write-ups/blob/main/Beginner/SOC%20Fundamentals.md">SOC Fundamentals</a> | SOC Analyst Learning Path |
+| 🔄 | Cyber Kill Chain | SOC Analyst Learning Path |
+| 🔄 | MITRE ATT&CK Framework | SOC Analyst Learning Path |
+| 🔄 | Phishing Email Analysis | SOC Analyst Learning Path |
+| 🔄 | Detecting Web Attacks | SOC Analyst Learning Path |
+| 🔄 | Detecting Web Attacks - 2 | SOC Analyst Learning Path |
+| 🔄 | How to Investigate a SIEM Alert? | SOC Analyst Learning Path |
+| 🔄 | Malware Analysis Fundamentals | SOC Analyst Learning Path |
+| 🔄 | Dynamic Malware Analysis | SOC Analyst Learning Path |
