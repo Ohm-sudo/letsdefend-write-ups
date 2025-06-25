@@ -95,3 +95,46 @@ Given the hash value, use it to search for the device in EDR.
 #### Q2: A "Ps1.hta" file was executed on a device with the hostname "Roberto". What is the complete CMD command?
 <pre>C:/Windows/System32/mshta.exe C:/Users/roberto/Desktop/Ps1.hta</pre>
 Search for **Roberto** go to **Terminal History** and you should see an entry that executed the Ps1.hta file.
+
+<br>
+
+# SOAR (Security Orchestration Automation and Response)
+- SOAR enables security products and tools to work together.
+- Examples: Splunk Phantom, IBM Resilient, Logsign, Demisto.
+- Capabilities:
+  - Threat Intelligence.
+  - Case Management based Incident Response.
+  - Vulnerability Management.
+  - Endpoint Detection and Response.
+  - Security Operations Automation.
+  - Playbook Management.
+- SOAR automates processes such as IP address reputation, hash querying, scanning files, etc.
+- Playbooks ensure SOC team is on same page when performing their analysis.
+
+<br>
+
+# Threat Intelligence Feed
+- Threat intelligence feeds are created for SOC teams to be aware of latest trends.
+- Consists of data such as malware hashes, C2 domain/IP addresses, etc, provided by a third-party company.
+- Can use free sources such as VirusTotal and Talos Intelligence.
+
+<br>
+
+#### Q1: What is the data source of the "e1def6e8ab4b5bcb650037df234e2973" hash on the threat intel page?
+<pre>AbuseCH</pre>
+Navigate to the Threat Intel section on LetsDefend. Search using the hash provided. One of columns show that AbuseCH is the data source associated with the hash.
+
+<br>
+
+# Common Mistakes made by SOC Analysts
+- Over-reliance on VirusTotal results.
+  - Accept only as a supporting tool.
+  - Malicious software may be developed using an AV bypass technique. 
+- Hasty Analysis of Malware in a Sandbox.
+  - Malware may detect sandbox environment and not activate itself.
+  - Malware may not become active 10 to 15 minutes after operation.
+  - Analysis should be long as possible. 
+- Inadequate Log Analysis.
+  - Should also check if other devices are associated with the threat. 
+- Overlooking VirusTotal Dates.
+  - Should conduct a new search instead of looking at search cache.
