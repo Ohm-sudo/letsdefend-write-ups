@@ -108,3 +108,27 @@
 <pre>4</pre>
 The scenario describes weaponization. It is at this step that the attack could fail because the tool is not suitable on the machine.
 <br>
+
+# Command and Control (C2)
+- Attacker established Command and Control (C2) server to deliver commands to system.
+- Attackers performs any actions to necessitate communicate between C2 server and victim.
+- Blue teams should detect for any C2 systems.
+
+<br>
+
+#### Q1: What is the last Cyber Kill Chain step in which the attacker is successful, according to the aforementioned detection scenario? 
+<pre>6</pre>
+Last step is 6. Command and Control (C2).
+
+<br>
+
+# Actions on Objectives
+- Attacker takes planned actions at start of cyber attack.
+- i.e., Delete critical info, encrypt files (ransomware), collect user credentials.
+- It may still be possible for blue teams to detect malicious activity.
+
+<br>
+
+#### Q1: The usage of the "SDelete" tool for data deletion by the APT group "Cobalt Group" is an activity at which stage of the Cyber Kill Chain? 
+<pre>7</pre>
+The usage of the tool is associated with step 7. Actions on Objectives.
