@@ -16,7 +16,7 @@ This is mainly for me to document my learning progress on LetsDefend. Feel free 
 | Status       | Course Name           | Category        |
 |:------------:|---------------------|-----------------|
 | ☑️ | <a href="https://github.com/Ohm-sudo/letsdefend-write-ups/blob/main/SOC%20Analyst%20Learning%20Path/SOC%20Fundamentals.md">SOC Fundamentals</a> | SOC Analyst Learning Path |
-| 🔄 | Cyber Kill Chain | SOC Analyst Learning Path |
+| ☑️ | Cyber Kill Chain | SOC Analyst Learning Path |
 | 🔄 | MITRE ATT&CK Framework | SOC Analyst Learning Path |
 | 🔄 | Phishing Email Analysis | SOC Analyst Learning Path |
 | 🔄 | Detecting Web Attacks | SOC Analyst Learning Path |
