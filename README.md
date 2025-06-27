@@ -17,8 +17,8 @@ This is mainly for me to document my learning progress on LetsDefend. Feel free 
 |:------------:|---------------------|-----------------|
 | ☑️ | <a href="https://github.com/Ohm-sudo/letsdefend-write-ups/blob/main/SOC%20Analyst%20Learning%20Path/SOC%20Fundamentals.md">SOC Fundamentals</a> | SOC Analyst Learning Path |
 | ☑️ | <a href="https://github.com/Ohm-sudo/letsdefend-write-ups/blob/main/SOC%20Analyst%20Learning%20Path/Introduction%20to%20Cyber%20Kill%20Chain.md">Cyber Kill Chain</a> | SOC Analyst Learning Path |
-| 🔄 | <a href="https://github.com/Ohm-sudo/letsdefend-write-ups/blob/main/SOC%20Analyst%20Learning%20Path/MITRE%20ATT%26CK%20Framework.md">MITRE ATT&CK Framework</a> | SOC Analyst Learning Path |
-| 🔄 | <a href="https://github.com/Ohm-sudo/letsdefend-write-ups/blob/main/SOC%20Analyst%20Learning%20Path/Phishing%20Email%20Analysis.md">Phishing Email Analysis</a> | SOC Analyst Learning Path |
+| ☑️ | <a href="https://github.com/Ohm-sudo/letsdefend-write-ups/blob/main/SOC%20Analyst%20Learning%20Path/MITRE%20ATT%26CK%20Framework.md">MITRE ATT&CK Framework</a> | SOC Analyst Learning Path |
+| ☑️ | <a href="https://github.com/Ohm-sudo/letsdefend-write-ups/blob/main/SOC%20Analyst%20Learning%20Path/Phishing%20Email%20Analysis.md">Phishing Email Analysis</a> | SOC Analyst Learning Path |
 | 🔄 | Detecting Web Attacks | SOC Analyst Learning Path |
 | 🔄 | Detecting Web Attacks - 2 | SOC Analyst Learning Path |
 | 🔄 | How to Investigate a SIEM Alert? | SOC Analyst Learning Path |
