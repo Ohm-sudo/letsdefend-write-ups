@@ -89,3 +89,62 @@ Go to MITRE ATT&CK website. Search for T1112 and read the description of the tec
 #### Q3: Under which tactic is the "Supply Chain Compromise" technique which is among the Enterprise techniques?
 <pre>Initial Access</pre>
 Go to MITRE ATT&CK website. Search for Supply Chain Compromise and select the first result (not sub-technique). If you read, the tactic associated with this technique is Supply Chain Compromise.
+
+<br>
+
+# Mitigations
+- Mitigations are actions taken to respond to techniques in MITRE ATT&CK matrix.
+- Like with matrices and tactics, they can be grouped into Enterprise, Mobile, and ICS.
+
+<br>
+
+#### Q1: What is the name of the mitigation with the ID M1032 among the Enterprise mitigations?
+<pre>Multi-factor authentication</pre>
+Go to MITRE ATT&CK website and search for M1032.
+
+<br>
+
+#### Q2: What is the name of enterprise mitigation that recommends “digital signature verification should be implemented to prevent the untrusted codes from working on enterprise devices”?
+<pre>Code signing</pre>
+Go to MITRE ATT&CK website and search for digital signature. Code signing matches this description.
+
+<br>
+
+# Groups
+- APT (Advanced Persistent Threat) groups are hacker groups that carry out cyber attacks in a targeted and systematic way.
+- May be government supported.
+- Maps attack groups to systems and techniques.
+
+<br>
+
+#### Q1: What is the name of the software that is associated only with the "System Information Discovery" technique among the software utilized by the OilRig APT group?
+<pre>Systeminfo</pre>
+On MITRE ATT&CK website, search for OilRig APT group. Under the software section, search for the software that only lists 1 technique - System Information Discovery.
+
+<br>
+
+#### Q2: What is the name of the APT group whose “Associated Groups” information includes the names “GOLD NIAGARA”, “ITG14” and “Carbon Spider”?
+<pre>FIN7</pre>
+If you search for "GOLD NIAGARA" and select "Groups" result, you can find the group associated.
+
+<br>
+
+# Software
+
+<br>
+
+#### Q1: For which platform is the software named “Cryptoistic” utilized by “Lazarus Group” APT group meant for?
+<pre>macOS</pre>
+Search for Cryptoistic then you can see the platform on the right side of the page.
+
+<br>
+
+#### Q2: What is the type of software named “Rotexy” for Android platforms?
+<pre>Rotexy</pre>
+Search for Rotexy then you can see the type on the right side of the page.
+
+<br>
+
+#### Q3: What is the name of the APT group that utilizes the software named “PUNCHBUGGY” targeting POS networks?
+<pre>FIN8</pre>
+Search for "PUNCHBUGGY". The APT group is specified in the description.
