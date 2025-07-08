@@ -163,3 +163,36 @@ The payload is present in the file so the attack type is Reflected.
 <br>
 
 # Detecting Command Injection Attacks
+- Command injection attacks occur when user input data is not sanitized and passed directly to OS shell.
+- Web app and other server components are at risk.
+## Preventing Command Injection
+- **Always sanitize data.**
+- **Limit user privileges.**
+- **Use virtualization technology** (i.e., Docker).
+## Detecting Command Injection Attacks
+- **Examine all areas of a web request**
+- **Look for keywords related to terminal language** (i.e., dir, ls, cp, cat, type).
+- **Learn about commonly used command injection payloads**.
+- **Shellshock** is a security vulnerabilitiy disclosed in 2014.
+  - Bash execute environment variables unintentionally.
+- Again the questions below are based off of the provided .rar file.
+
+<br>
+
+#### Q1: What is the date the command injection attack was initiated? 
+<pre>01/Mar/2022:09:03:33</pre>
+First check for terminal keywords. If you search for ls, two results appear in the text document. The first instance of ls occurring indicates when the attack was initiated.
+
+<br>
+
+#### Q2: What is the IP address of the attacker who performed the Command Injection attack?
+<pre>192.168.31.156</pre>
+192.168.31.200 is the web server address.
+
+<br>
+
+#### Q3: Was the Command Injection attack successful? 
+<pre>N</pre>
+No as there doesn't appear to be an output. The attacker also tried using && instead of ; to chain commands but doesn't give the desired output.
+
+<br>
