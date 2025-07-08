@@ -196,3 +196,67 @@ First check for terminal keywords. If you search for ls, two results appear in t
 No as there doesn't appear to be an output. The attacker also tried using && instead of ; to chain commands but doesn't give the desired output.
 
 <br>
+
+# Detecting Insecure Direct Object Reference (IDOR) Attacks
+- Also known as broken access control.
+- Allows one person to access object that belongs to another.
+- Difficult to identify this attack because HTTP responses are not logged.
+## Detecting IDOR Attacks
+- **Check all parameters**.
+- **Look at number of requests made to same page**.
+- **Identify a pattern**.
+- Same as before, the following questions will be based on the provided .rar file.
+
+<br>
+
+#### Q1: What is the IP address of the attacker who carried out the IDOR attack?
+<pre>192.168.31.174</pre>
+If you notice at the end of the file there are HTTP requests in quick succession belonging to 192.168.31.174 (presumably the attacker).
+
+<br>
+
+#### Q2: What is the date when the attack started?
+<pre>01/Mar/2022:11:42:32</pre>
+<br>
+Started the entry where the attacker changed the id parameter (starting with id = 1).
+
+#### Q3: Was the attack successful?
+<pre>Y</pre>
+The status code of 200 may indicate the attack was successful.
+
+<br>
+
+#### Q4: Was the attack carried out by an automated tool?
+<pre>N</pre>
+There are arbitrary time gaps in between HTTP requests, so no automated tool was used.
+
+<br>
+
+# Detecting RFI & LFI Attacks
+- **Local File Inclusion (LFI)**: Attached file is not sanitized. This is located on the same web server the web app is being hosted on.
+- **Remote File Inclusion (RFI)**: Similar to LFI, but file is hosted on another server.
+- Always sanitize data received from user.
+## Detecting LFI & RFI Attacks
+- **Examine all web request fields**.
+- **Look for special characters** (i.e., '/')
+- **Be familiar with files used in LFI attacks**.
+- **Look for acronyms such as HTTP and HTTPS**.
+- The questions below refer to the attached .rar file
+
+<br>
+
+#### Q1: What is the attacker's IP address?
+<pre>192.168.31.174</pre>
+If you search for './' you can see the entries with the attacker's IP.
+
+<br>
+
+What is the start date of the attack?
+<pre>01/Mar/2022:11:58:35</pre>
+After searching for './' look at the first result.
+
+<br>
+
+Was the attack successful?
+<pre>N</pre>
+The web requests were successful but the response times are significantly lower compared to previous web requests. There doesn't appear to be any output either, so the attack wasn't successful.
