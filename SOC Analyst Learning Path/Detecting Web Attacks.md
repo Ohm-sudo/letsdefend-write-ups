@@ -251,12 +251,12 @@ If you search for './' you can see the entries with the attacker's IP.
 
 <br>
 
-What is the start date of the attack?
+#### Q2: What is the start date of the attack?
 <pre>01/Mar/2022:11:58:35</pre>
 After searching for './' look at the first result.
 
 <br>
 
-Was the attack successful?
+#### Q3: Was the attack successful?
 <pre>N</pre>
 The web requests were successful but the response times are significantly lower compared to previous web requests. There doesn't appear to be any output either, so the attack wasn't successful.
