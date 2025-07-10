@@ -148,3 +148,104 @@ This is based off the entry when the attack started.
 <br>
 
 ## Detecting Brute Force Attacks
+- **Brute forcing**: Guessing password or auth token by trying every possible combination until correct one is found.
+- Effective on web apps with poorly implemented access controls or configurations.
+<img src="https://letsdefend-images.s3.us-east-2.amazonaws.com/Courses/Detecting-Web-Attacks-2/brute+force/img1.png"/>
+- The above code is susceptible to brute force attacks because it allows unlimited login attempts.
+
+### Impact of Brute Forcing
+1. Denial of service
+2. Data leakage
+3. Account takeover
+4. Password reuse
+5. Reputational and legal consequences
+
+### Prevention Methods for Brute Forcing
+- Implement CAPTCHA
+- Limit rate of login attempts
+- Use multi-factor authentication
+- Monitor login attempts
+- Use strong passwords and password policies
+
+### WAF Capabilities
+- IP blocking
+- User behavior analysis
+
+### Detecting Brute Force Attacks
+- Collect and store authentication logs.
+- Look for patterns of suspicious activity.
+- Analyze network traffic logs.
+- Deploy IDS or IPS.
+- Block malicious IPs.
+
+### Detecting Brute Force Attacks in Nginx Logs
+- Log analysis tools
+- Regular expressions
+   - i.e., /^(\S+) \S+ \S+ \[.*?\] "(POST|GET) \/login\.php.*?" (401|403) \d+ ".*?" ".*?"/gm 
+- Fail2ban
+- IP blocking
+
+The questions below are based on the provided access log file.
+
+#### Q1: What is the attacker's user agent?
+<pre>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5615.50 Safari/537.36</pre>
+The access log shows repeated requests indicating a brute force attack. Attacker's user agent can be obtained from these entries.
+
+<br>
+
+#### Q2: What is the IP address of the attacker who performed the Brute Forcing attack?
+<pre>146.241.231.73.240</pre>
+<br>
+
+#### Q3: What date did the Brute Forcing successfully complete to login form? Format: dd/MMM/yyyy HH:mm:ss
+<pre>26/Apr/2023 21:44:03</pre>
+This can be found after a repeated set of requests coming from the attacker's IP.
+
+<br>
+
+## Detecting XML External Entity Attacks
+- XXE (XML External Entity) affects applications that parse XML input.
+- Attacker injects malicious XML data.
+- XML parser processes external entities controlled by attacker.
+- Examples of input points:
+   1. Form fields that accept XML input
+   2. XML files uploaded by users
+   3. APIs that accpet XML requests
+   4. XML files used for configuration or other purposes
+
+### Impact of XML External Entity
+1. Information disclosure.
+2. Server-side request forgery (SSRF): Make requests on behalf of server - allows for scan internal networks and carry out further attacks.
+3. Denial of Service (DoS)
+4. Remote code execution (RCE)
+
+### Prevention Methods for XML External Entity
+- Disable external entities.
+- Input validation and sanitization.
+- Use secure parsers.
+- Use whitelist filtering.
+- Implement access controls.
+- Use secure coding practices.
+
+### Detecting XXE Attacks on Logs
+- Search for specific keywords
+   - DOCTYPE
+   - ELEMENT
+   - ENTITY
+   - Can use a regex like: ^(\S+) - (\S+) \[(.*?)\] "(\S+) (.*?)\?(?=.*?\b21DOCTYPE\b).*? HTTP\/\d\.\d" (\d+) (\d+) "(.*?)" "(.*?)"
+
+The questions below refer to the attached access log file.
+
+#### Q1: What parameter affected XXE?
+<pre>data</pre>
+This can be found by searching for specific keywords commonly found in XXE attacks (i.e., DOCTYPE)
+
+<br>
+
+#### Q2: What file did that attacker try to read using XXE?
+<pre>/etc/shadow</pre>
+You can find this in the web requests where XXE is being used.
+<br>
+
+#### Q3: What was the attacker's IP address?
+<pre>94.23.33.25</pre>
