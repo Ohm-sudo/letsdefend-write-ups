@@ -20,7 +20,7 @@ This is mainly for me to document my learning progress on LetsDefend. Feel free 
 | ☑️ | <a href="https://github.com/Ohm-sudo/letsdefend-write-ups/blob/main/SOC%20Analyst%20Learning%20Path/MITRE%20ATT%26CK%20Framework.md">MITRE ATT&CK Framework</a> | SOC Analyst Learning Path |
 | ☑️ | <a href="https://github.com/Ohm-sudo/letsdefend-write-ups/blob/main/SOC%20Analyst%20Learning%20Path/Phishing%20Email%20Analysis.md">Phishing Email Analysis</a> | SOC Analyst Learning Path |
 | ☑️ | <a href="https://github.com/Ohm-sudo/letsdefend-write-ups/blob/main/SOC%20Analyst%20Learning%20Path/Detecting%20Web%20Attacks.md">Detecting Web Attacks</a> | SOC Analyst Learning Path |
-| 🔄 | Detecting Web Attacks - 2 | SOC Analyst Learning Path |
+| ☑️ | <a href="https://github.com/Ohm-sudo/letsdefend-write-ups/blob/main/SOC%20Analyst%20Learning%20Path/Detecting%20Web%20Attacks%202.md">Detecting Web Attacks - 2</a> | SOC Analyst Learning Path |
 | 🔄 | How to Investigate a SIEM Alert? | SOC Analyst Learning Path |
 | 🔄 | Malware Analysis Fundamentals | SOC Analyst Learning Path |
 | 🔄 | Dynamic Malware Analysis | SOC Analyst Learning Path |
