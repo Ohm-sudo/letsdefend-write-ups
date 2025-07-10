@@ -9,7 +9,7 @@ A compilation of my write-ups for LetsDefend courses.
 
 Each folder contains:
 - Notes for each course.
-- Answers to lession questions.
+- Answers to lesson questions.
 
 This is mainly for me to document my learning progress on LetsDefend. Feel free to browse by course name and use as reference for your own learning journey.
 
