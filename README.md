@@ -23,4 +23,4 @@ This is mainly for me to document my learning progress on LetsDefend. Feel free 
 | ☑️ | <a href="https://github.com/Ohm-sudo/letsdefend-write-ups/blob/main/SOC%20Analyst%20Learning%20Path/Detecting%20Web%20Attacks%202.md">Detecting Web Attacks - 2</a> | SOC Analyst Learning Path |
 | 🔄 | <a href="https://github.com/Ohm-sudo/letsdefend-write-ups/blob/main/SOC%20Analyst%20Learning%20Path/How%20to%20Investigate%20a%20SIEM%20Alert.md">How to Investigate a SIEM Alert?</a> | SOC Analyst Learning Path |
 | ☑️ | <a href="https://github.com/Ohm-sudo/letsdefend-write-ups/blob/main/SOC%20Analyst%20Learning%20Path/Malware%20Analysis%20Fundamentals.md">Malware Analysis Fundamentals</a> | SOC Analyst Learning Path |
-| 🔄 | Dynamic Malware Analysis | SOC Analyst Learning Path |
+| ☑️ | <a href="https://github.com/Ohm-sudo/letsdefend-write-ups/blob/main/SOC%20Analyst%20Learning%20Path/Dynamic%20Malware%20Analysis.md">Dynamic Malware Analysis</a> | SOC Analyst Learning Path |
