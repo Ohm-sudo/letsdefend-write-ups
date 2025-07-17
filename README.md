@@ -24,3 +24,16 @@ This is mainly for me to document my learning progress on LetsDefend. Feel free 
 | 🔄 | <a href="https://github.com/Ohm-sudo/letsdefend-write-ups/blob/main/SOC%20Analyst%20Learning%20Path/How%20to%20Investigate%20a%20SIEM%20Alert.md">How to Investigate a SIEM Alert?</a> | SOC Analyst Learning Path |
 | ☑️ | <a href="https://github.com/Ohm-sudo/letsdefend-write-ups/blob/main/SOC%20Analyst%20Learning%20Path/Malware%20Analysis%20Fundamentals.md">Malware Analysis Fundamentals</a> | SOC Analyst Learning Path |
 | ☑️ | <a href="https://github.com/Ohm-sudo/letsdefend-write-ups/blob/main/SOC%20Analyst%20Learning%20Path/Dynamic%20Malware%20Analysis.md">Dynamic Malware Analysis</a> | SOC Analyst Learning Path |
+| 🔄 | Malicious Document Analysis | SOC Analyst Learning Path |
+| 🔄 | Security Solutions | SOC Analyst Learning Path |
+| 🔄 | Network Log Analysis | SOC Analyst Learning Path |
+| 🔄 | SIEM 101 | SOC Analyst Learning Path |
+| 🔄 | Incident Management 101 | SOC Analyst Learning Path |
+| 🔄 | Splunk | SOC Analyst Learning Path |
+| 🔄 | Cyber Threat Intelligence | SOC Analyst Learning Path |
+| 🔄 | VirusTotal for SOC Analysts | SOC Analyst Learning Path |
+| 🔄 | IT Security Basis for Corporates | SOC Analyst Learning Path |
+| 🔄 | Detecting Brute Force Attacks | SOC Analyst Learning Path |
+| 🔄 | Building a Malware Analysis Lab | SOC Analyst Learning Path |
+| 🔄 | Building a SOC Lab at Home | SOC Analyst Learning Path |
+
