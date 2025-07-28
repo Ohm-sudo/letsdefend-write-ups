@@ -27,7 +27,7 @@ This is mainly for me to document my learning progress on LetsDefend. Feel free 
 | ☑️ | <a href="https://github.com/Ohm-sudo/letsdefend-write-ups/blob/main/SOC%20Analyst%20Learning%20Path/Malicious%20Document%20Analysis.md">Malicious Document Analysis</a> | SOC Analyst Learning Path |
 | ☑️ | <a href="https://github.com/Ohm-sudo/letsdefend-write-ups/blob/main/SOC%20Analyst%20Learning%20Path/Security%20Solutions.md">Security Solutions</a> | SOC Analyst Learning Path |
 | ☑️ | <a href="https://github.com/Ohm-sudo/letsdefend-write-ups/blob/main/SOC%20Analyst%20Learning%20Path/Network%20Log%20Analysis.md">Network Log Analysis</a> | SOC Analyst Learning Path |
-| 🔄 | SIEM 101 | SOC Analyst Learning Path |
+| ☑️ | <a href="https://github.com/Ohm-sudo/letsdefend-write-ups/blob/main/SOC%20Analyst%20Learning%20Path/SIEM%20101.md">SIEM 101</a> | SOC Analyst Learning Path |
 | 🔄 | Incident Management 101 | SOC Analyst Learning Path |
 | 🔄 | Splunk | SOC Analyst Learning Path |
 | 🔄 | Cyber Threat Intelligence | SOC Analyst Learning Path |
