@@ -35,5 +35,3 @@ This is mainly for me to document my learning progress on LetsDefend. Feel free 
 | 🔄 | IT Security Basis for Corporates | SOC Analyst Learning Path |
 | 🔄 | Detecting Brute Force Attacks | SOC Analyst Learning Path |
 | 🔄 | Building a Malware Analysis Lab | SOC Analyst Learning Path |
-| 🔄 | Building a SOC Lab at Home | SOC Analyst Learning Path |
-
